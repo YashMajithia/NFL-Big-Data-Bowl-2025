@@ -35,23 +35,23 @@ Key Features: Down, Distance, Yard Line, Play Type, Speed, Acceleration, Formati
 ## 🚀 Features
 
 ### 🔹 ***1. Data Loading & Preprocessing***
--Merges plays.csv with games.csv to filter Week 1 data
--Cleans and structures pre-snap player tracking data
+- Merges plays.csv with games.csv to filter Week 1 data
+- Cleans and structures pre-snap player tracking data
 
 ### 🔹 ***2. Feature Engineering***
--Aggregates average speed, acceleration, and distance covered by players before the snap
--Merges with play data to prepare features for modeling
+- Aggregates average speed, acceleration, and distance covered by players before the snap
+- Merges with play data to prepare features for modeling
 
 ### 🔹 ***3. Predictive Modeling***
--Uses Logistic Regression to predict Run vs. Pass plays
--Converts offensive formation into dummy variables for better prediction
--Trains the model on labeled data and evaluates accuracy
+- Uses Logistic Regression to predict Run vs. Pass plays
+- Converts offensive formation into dummy variables for better prediction
+- Trains the model on labeled data and evaluates accuracy
 
 ### 🔹 ***4. Team-wise Play Analysis***
--Allows users to select a team for analysis
--Displays play type distribution (Run vs. Pass)
--Summarizes pre-snap metrics for the team
--Shows offensive formation usage
+- Allows users to select a team for analysis
+- Displays play type distribution (Run vs. Pass)
+- Summarizes pre-snap metrics for the team
+- Shows offensive formation usage
 
 ---
 
@@ -64,15 +64,15 @@ Key Features: Down, Distance, Yard Line, Play Type, Speed, Acceleration, Formati
 ---
 
 ## 🧠 Challenges
-Cleaning and merging large datasets;
-Handling missing values & feature selection for better predictions
+- Cleaning and merging large datasets;
+- Handling missing values & feature selection for better predictions
 
 ---
 
 ## 📌 Future Improvements
-Implement advanced ML models (Random Forest, XGBoost);
-Add real-time player tracking visualizations;
-Extend analysis to all weeks of the season
+- Implement advanced ML models (Random Forest, XGBoost);
+- Add real-time player tracking visualizations;
+- Extend analysis to all weeks of the season
 
 ---
 
